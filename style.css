@@ -1,38 +1,92 @@
 body {
-    font-family: 'Roboto';
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-h1 {
+.first-section {
+    background-image: linear-gradient(0deg, #000000e8, #0000007e), url(./images/donation7.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.first-section h1 {
     font-size: 60px;
     font-weight: 900;
     color: white;
 }
 
-.first-sec {
-    background-image: linear-gradient(0deg, #000000e8, #0000007e), url(images/donation7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 540px;
-    padding-top: 10%;
-}
-
-.first-sec p {
+.first-section p {
     color: white;
-    margin-bottom: 4%;
+    padding-bottom: 28px;
 }
 
-.mybtn {
-    text-decoration: none;
-    color: white;
-    margin-top: 15px;
-    background-color: tomato;
-    padding: 15px 40px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 5px rgb(82, 9, 199);
-}
-
-.m-item-elements {
+.up-sec-contants {
     text-align: center;
+    padding-top: 150px;
+}
+
+.donat-btn {
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.918);
+    padding: 12px 35px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px red;
+
+}
+
+/* 1111111111111111111111111 */
+
+.amount-main-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.amount-main-div h2 {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.red-border {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.red-border-h2 {
+    color: red;
+}
+
+.card {
+    width: 140px;
+    height: 100px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.donate-area h1 {
+    font-size: 40px;
+}
+
+.donate-area {
+    text-align: center;
+
+}
+
+.other-amount {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.amonunt-down-btn {
+    text-align: center;
+    margin-bottom: 50px;
 }
