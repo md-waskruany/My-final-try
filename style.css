@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.first-sec {
+    background-image: linear-gradient(0deg, #000000e8, #0000007e), url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    padding-top: 10%;
+}
+
+.first-sec p {
+    color: white;
+    margin-bottom: 4%;
+}
+
+.mybtn {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    background-color: tomato;
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 5px rgb(82, 9, 199);
+}
+
+.m-item-elements {
+    text-align: center;
+}
